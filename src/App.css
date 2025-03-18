@@ -28,7 +28,6 @@ nav h1{
   font-size: 35px;
 }
 .todos-list{
-  background-color: red;
   width: 90%;
   margin: 30px auto;
   padding: 15px;
@@ -47,4 +46,11 @@ nav h1{
   position: absolute;
   right: 15px;
   transform: rotate(45deg);
+}
+.todo-input{
+  height: 30px;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid white;
+  background-color: transparent;
 }
