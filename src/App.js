@@ -1,12 +1,12 @@
 import "./App.css";
-import Navbar from "./components/navbar"
-import Searchbar from "./components/searchbar";
+import Navbar from "./components/Navbar"
+import Searchbar from "./components/Searchbar";
 
 function App() {
   return (
     <>
     <Navbar />
-    <Searchbar />
+    <Searchbar placeholder="Enter Todo here" />
       <div className="todos-list">
         <div className="todos">
           <div className="check">

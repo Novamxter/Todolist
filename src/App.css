@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   color: white;
@@ -49,8 +50,21 @@ nav h1{
 }
 .todo-input{
   height: 30px;
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
   border: 1px solid white;
   background-color: transparent;
+  color:white;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.todo-input:focus{
+  outline: 2px solid #289438b3;
+  outline-offset: 2px;
+}
+.todo-input::placeholder{
+  color:white;
+}
+.input-cont{
+  width: 90%;
+  margin: 0 auto;
 }

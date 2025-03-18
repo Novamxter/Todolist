@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Searchbar() {
+export default function Searchbar(props) {
   return (
-    <div>
-      <input type="text" className='todo-input' />
+    <div className="input-cont">
+      <input type="text" className='todo-input' placeholder={props.placeholder} />
     </div>
   )
 }
