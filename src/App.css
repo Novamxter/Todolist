@@ -12,21 +12,17 @@ nav{
   width: 100%;
   padding: 0 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: rgb(58, 179, 94);
   position: relative;
 }
-nav::after{
-  content: "";
-  display: block;
-  height: 0.002rem;
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-}
 nav h1{
   font-size: 35px;
+}
+.plus-icon{
+  font-size: 30px;
+  color: white;
 }
 .todos-list{
   width: 90%;
@@ -45,7 +41,7 @@ nav h1{
 }
 .cross{
   position: absolute;
-  right: 15px;
+  right: 0;
   transform: rotate(45deg);
 }
 .todo-input{
@@ -65,6 +61,6 @@ nav h1{
   color:white;
 }
 .input-cont{
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }

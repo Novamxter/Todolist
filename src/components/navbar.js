@@ -7,7 +7,9 @@ export default function Navbar() {
           <div className="left">
             <h1>Todolist</h1>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <i className="fa-solid fa-plus plus-icon"></i>
+          </div>
         </nav>
     </div>
   )
